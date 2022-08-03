@@ -1,0 +1,13 @@
+.panel-full {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+
+  &.primary {
+    background: var(--primary-bg-color);
+  }
+
+  &.secondary {
+    background-color: var(--secondary-bg-color);
+  }
+}

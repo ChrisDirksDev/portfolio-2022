@@ -1,0 +1,57 @@
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    background-color: rgb(189, 97, 212);
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-bg-color: #000;
+    --secondary-bg-color: #fff;
+
+    --primary-text-color: #fff;
+    --secondary-text-color: #000;
+}
+
+.bg-primary {
+    background-color: var(--primary-bg-color);
+}
+
+.bg-secondary {
+    background-color: var(--secondary-bg-color);
+}
+
+.color-primary {
+    color: var(--primary-text-color);
+}
+
+.color-secondary {
+    color: var(--secondary-text-color);
+}
+
+.fill-white {
+    fill: white;
+}
